@@ -1,0 +1,31 @@
+{
+  "name": "Screen_Recorder",
+  "version": "1.0.0",
+  "description": "Recording your screen",
+  "main": "./src/main.js",
+  "config": {
+    "forge": "./src/main.js"
+  },
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D2720/ScreenRecorder.git"
+  },
+  "author": "D2720",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D2720/ScreenRecorder/issues"
+  },
+  "homepage": "https://github.com/D2720/ScreenRecorder#readme",
+  "devDependencies": {
+    "electron": "^13.1.6",
+    "electron-prebuilt-compile": "8.2.0"
+  }
+}
